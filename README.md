@@ -147,9 +147,6 @@ The demonstration shows how data visualisation, explainable risk rules, map-base
 
 **Important:** Sample scenarios demonstrate the concept. They must not be interpreted as live flood predictions or official warnings.
 
-### 🔗 Project Repository
-
-[View the HydroX project repository on GitHub](https://github.com/srinidi-jpg/waven.git)
 
 ---
 
