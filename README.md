@@ -1,4 +1,4 @@
-# 🌊 HydroX — Flood Intelligence Platform
+# 🌊 Waven — Flood Intelligence Platform
 
 ### 🚨 From Reservoir Signals to Downstream Safety
 
@@ -6,9 +6,9 @@
 
 An AI-assisted flood intelligence and early-warning decision-support platform designed to help identify potential downstream risks, visualise affected areas, and prepare clearer, location-relevant safety guidance.
 
-HydroX brings rainfall and reservoir information into one workflow, helping authorised officials review risk indicators and prepare warning messages before conditions become critical.
+Waven brings rainfall and reservoir information into one workflow, helping authorised officials review risk indicators and prepare warning messages before conditions become critical.
 
-> **Safety first:** HydroX is a decision-support prototype. It does not control dam gates, replace official emergency authorities, or send real emergency alerts without authorised integrations.
+> **Safety first:** Waven is a decision-support prototype. It does not control dam gates, replace official emergency authorities, or send real emergency alerts without authorised integrations.
 
 **Python · FastAPI · React · TypeScript · Tailwind CSS · Recharts · React Leaflet · OpenStreetMap**
 
@@ -24,10 +24,10 @@ HydroX brings rainfall and reservoir information into one workflow, helping auth
 - 🧭 [Workflow Architecture](#-workflow-architecture)
 - 🛠️ [Tools and Technologies](#️-tools-and-technologies)
 - 📚 [Concepts Explained Simply](#-concepts-explained-simply)
-- 🆚 [Why HydroX Is Different](#-why-hydrox-is-different)
+- 🆚 [Why Waven Is Different](#-why-waven-is-different)
 - 🚀 [Getting Started](#-getting-started)
 - 🗺️ [Roadmap](#️-roadmap)
-- 👥 [Team](#-team)
+- 👥 [Team](#-team-hydrox)
 
 ---
 
@@ -39,9 +39,9 @@ Different pieces of information may be available through different sources, leav
 
 **Which downstream locations need attention first, and what information should residents receive?**
 
-HydroX aims to bring these signals together in one dashboard.
+Waven aims to bring these signals together in one dashboard.
 
-Instead of making users interpret scattered readings manually, HydroX provides a connected workflow:
+Instead of making users interpret scattered readings manually, Waven provides a connected workflow:
 
 - 🌧️ Review rainfall and reservoir information.
 - ✅ Validate available data and identify missing or stale information.
@@ -75,7 +75,7 @@ Flood-related risks can change quickly during heavy rainfall and reservoir opera
 - General warnings may not explain which downstream locations require closer attention.
 - Missing, delayed, or uncertain data can make risk interpretation more difficult.
 
-Official warnings remain essential. HydroX is intended to support their review and communication, not replace them.
+Official warnings remain essential. Waven is intended to support their review and communication, not replace them.
 
 ### 🎯 Example use case
 
@@ -83,17 +83,17 @@ Heavy rainfall is forecast and reservoir levels are rising.
 
 An authorised official needs to assess the available information, identify downstream locations that should be checked first, and prepare understandable guidance for affected communities.
 
-**HydroX aims to support that workflow through a shared, explainable dashboard.**
+**Waven aims to support that workflow through a shared, explainable dashboard.**
 
 ---
 
 ## ✨ Our Solution
 
-HydroX is a flood intelligence and early-warning decision-support platform that connects available data, risk assessment, downstream visualisation, and alert review in one workflow.
+Waven is a flood intelligence and early-warning decision-support platform that connects available data, risk assessment, downstream visualisation, and alert review in one workflow.
 
 ### 1️⃣ Explainable Risk Bands
 
-HydroX uses a rule-based approach to classify illustrative scenarios into three risk bands:
+Waven uses a rule-based approach to classify illustrative scenarios into three risk bands:
 
 - 🟢 **Watch** — conditions require monitoring.
 - 🟠 **Warning** — increased attention and preparedness may be needed.
@@ -109,7 +109,7 @@ The reliability of any exposure view depends on accurate geographic information,
 
 ### 3️⃣ Staged Alert Preparation
 
-📝 HydroX prepares simple, location-relevant warning drafts that an authorised officer can review, edit, and approve.
+📝 Waven prepares simple, location-relevant warning drafts that an authorised officer can review, edit, and approve.
 
 The prototype demonstrates the alert-review workflow rather than independently issuing real-world emergency notifications.
 
@@ -119,7 +119,7 @@ The prototype demonstrates the alert-review workflow rather than independently i
 
 ### 5️⃣ Safety and Transparency
 
-🔐 HydroX is designed around explainable rules, data-quality checks, clear sample-data labelling, and human oversight.
+🔐 Waven is designed around explainable rules, data-quality checks, clear sample-data labelling, and human oversight.
 
 The system is intended to assist decision-making, not autonomously control reservoir operations.
 
@@ -136,7 +136,7 @@ Consider a demonstration in which rainfall increases and reservoir observations 
 | 1️⃣  | The user loads the available demonstration data                |
 | 2️⃣  | The dashboard displays rainfall and reservoir information      |
 | 3️⃣  | The risk engine evaluates the configured scenario              |
-| 4️⃣  | HydroX displays the corresponding illustrative risk band       |
+| 4️⃣  | Waven displays the corresponding illustrative risk band        |
 | 5️⃣  | The user reviews the downstream map                            |
 | 6️⃣  | The system prepares a warning draft                            |
 | 7️⃣  | An authorised user reviews and approves the draft in demo mode |
@@ -152,7 +152,7 @@ The demonstration shows how data visualisation, explainable risk rules, map-base
 
 ## 🏗️ How It Works
 
-HydroX follows a structured workflow from data input to alert review.
+Waven follows a structured workflow from data input to alert review.
 
 ```text
          🌧️ Rainfall Data
@@ -198,13 +198,13 @@ Actual functionality depends on the connected data sources and implemented proto
 - **Data transparency:** sample data must be clearly distinguished from verified live data.
 - **Explainable decisions:** risk classifications should be linked to the rules and inputs that triggered them.
 - **Responsible integration:** live data feeds and operational thresholds require appropriate verification and approval.
-- **No gate control:** HydroX does not operate reservoir gates.
+- **No gate control:** Waven does not operate reservoir gates.
 
 ---
 
 ## 🧭 Workflow Architecture
 
-HydroX can be understood through three main phases.
+Waven can be understood through three main phases.
 
 ### 📥 Phase 1 — Data Input and Validation
 
@@ -220,7 +220,7 @@ The system should communicate uncertainty and avoid treating incomplete data as 
 
 ### 🚨 Phase 3 — Alert Review and Logging
 
-HydroX prepares a warning draft for review. An authorised officer can inspect and approve the draft within the demonstrated workflow.
+Waven prepares a warning draft for review. An authorised officer can inspect and approve the draft within the demonstrated workflow.
 
 Live notification delivery, official approval workflows, and operational audit requirements depend on future integrations.
 
@@ -280,11 +280,11 @@ A traceable record can help reviewers understand what information was available,
 
 ---
 
-## 🆚 Why HydroX Is Different
+## 🆚 Why Waven Is Different
 
-HydroX focuses on connecting several steps that may otherwise be handled separately.
+Waven focuses on connecting several steps that may otherwise be handled separately.
 
-| Dimension           | Disconnected information workflow          | HydroX approach                                             |
+| Dimension           | Disconnected information workflow          | Waven approach                                              |
 | ------------------- | ------------------------------------------ | ----------------------------------------------------------- |
 | Data interpretation | Users may need to inspect separate sources | Shared dashboard for available inputs                       |
 | Risk assessment     | May require manual interpretation          | Explainable, configured rule-based risk bands               |
@@ -295,7 +295,7 @@ HydroX focuses on connecting several steps that may otherwise be handled separat
 
 ### 🌟 Our core differentiator
 
-**HydroX connects data validation → explainable risk assessment → downstream visualisation → officer-reviewed alert preparation.**
+**Waven connects data validation → explainable risk assessment → downstream visualisation → officer-reviewed alert preparation.**
 
 The project is not simply a weather dashboard. Its focus is on turning available information into a structured workflow for flood preparedness and human decision support.
 
@@ -375,7 +375,7 @@ uvicorn main:app --reload
 
 Once the required components are running:
 
-1. Open the HydroX dashboard.
+1. Open the Waven dashboard.
 2. Load the supported sample dataset.
 3. Review rainfall and reservoir charts.
 4. Inspect the illustrative risk band.
@@ -439,13 +439,13 @@ Built for **HackBuild'26 — Climate Resilience Track**.
 
 **Clearer signals. Faster review. Safer preparation.**
 
-HydroX aims to make flood-related information easier to interpret and help communities and authorities prepare through better-informed, human-reviewed decisions.
+Waven aims to make flood-related information easier to interpret and help communities and authorities prepare through better-informed, human-reviewed decisions.
 
 ---
 
 ## ⚠️ Disclaimer
 
-HydroX is a prototype intended for demonstration and decision-support research. Risk bands and sample scenarios are illustrative and must not be treated as official forecasts, evacuation orders, or emergency warnings.
+Waven is a prototype intended for demonstration and decision-support research. Risk bands and sample scenarios are illustrative and must not be treated as official forecasts, evacuation orders, or emergency warnings.
 
 The platform does not control dams or reservoir gates. Any real-world deployment would require verified data sources, expert-validated thresholds, appropriate security and reliability testing, and authorisation from the responsible agencies.
 
