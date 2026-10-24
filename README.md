@@ -1,4 +1,4 @@
-# 🌊 Waven — Flood Preparedness & Early Warning Platform
+# 🌊 WAVEN — Flood Preparedness & Early Warning Platform
 
 **Turning reservoir data into timely warnings to help protect downstream communities.**
 
